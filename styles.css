@@ -1,0 +1,70 @@
+/* Demo Style*/
+a {
+  text-decoration: none;
+  color: #eee;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  background-color: #1d2fd3;
+}
+
+html, 
+body {
+  height: 100%;
+  min-height: 100%;
+}
+
+html, 
+body, 
+#top {
+  height:100%;
+}
+
+#top {
+  background: url('images/slogan_01.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 90%;
+}
+
+.bottom {
+  text-align: center;
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+}
+
+.register {
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+#registration {
+  background: #ff0000;
+  /* pilla la altura de la pantalla */
+  height: 100%;
+  padding: 10rem;
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
+
+@media (max-width: 850px) {
+  #registration {
+    padding: 6rem;
+  }
+
+  #top {
+    background: url(images/slogan_02.svg) center center no-repeat;
+    background-size:  100% 100%; 
+  }
+}

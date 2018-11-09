@@ -16,15 +16,10 @@ body {
 }
 
 html, 
-body {
-  height: 100%;
-  min-height: 100%;
-}
-
-html, 
 body, 
 #top {
   height:100%;
+  min-height: 100%;
 }
 
 #top {
@@ -46,7 +41,7 @@ body,
   display: inline-block;
 }
 
-#registration {
+#info {
   background: #ff0000;
   /* pilla la altura de la pantalla */
   height: 100%;
@@ -59,7 +54,7 @@ p {
 }
 
 @media (max-width: 850px) {
-  #registration {
+  #info {
     padding: 6rem;
   }
 
